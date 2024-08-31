@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# To-Do List Application
+This project is a simple yet functional To-Do List application built using Next.js. It allows users to create, update, and delete tasks, helping them manage their daily activities efficiently. The application emphasizes clean and responsive design, ensuring a smooth user experience across various devices.
 
-## Getting Started
+## Automated Testing
+As part of ensuring the quality and reliability of this application, I have implemented automated testing using Jest and React Testing Library.
 
-First, run the development server:
+### What is Automated Testing?
+Automated testing is the process of using software tools to automatically verify that the code behaves as expected. Developers write tests to check the output and functionality of their code, not only to catch bugs but also to ensure that they have thoroughly considered how their code will be executed in various scenarios.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Unit Testing
+In this project, unit testing forms the backbone of my testing strategy. Unit tests are written to verify that individual components function correctly in isolation. These tests mimic user interactions and validate that each feature behaves as it should. This "shallow testing" approach ensures that the smallest parts of the program work as intended before they are integrated into the larger application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I have utilized:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Jest:** A JavaScript test runner that executes our tests, providing feedback on code correctness.<br/>
+**React Testing Library:** A tool specifically designed for testing React components, enabling me to write tests that reflect real user interactions.
+<br/><br/>By adhering to this testing methodology, I aim to deliver a robust and reliable application, minimizing the risk of bugs and enhancing the overall code quality.
